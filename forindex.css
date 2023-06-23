@@ -1,0 +1,122 @@
+body{
+  width: 1440px;
+  height: 2603px;
+  margin: 0 auto;
+  position: relative;
+}
+.verh{
+  display: block;
+  width: 1440px;
+  height: 248px;
+}
+.logo{
+  display: block;
+  width: 320px;
+  height: 90px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  background: url(images/logo.png);
+}
+.location{
+  display: block;
+  width: 1440px;
+  height: 112px;
+}
+.location .l{
+  display: block;
+  position: absolute;
+  width: 330px;
+  height: 112px;
+  background-color: #B3BE05;
+}
+.location p{
+  text-align: center;
+  font-size: 39px;
+  text-transform: uppercase;
+  font-family: "TT Hazelnuts Edu";
+  margin-top: 32px;
+}
+.location a{
+ text-decoration: none;
+ color: white;
+}
+.location .l1 a{
+ text-decoration: none;
+ color: #2E2E2E;
+}
+.location .l2{
+  left: 370px;
+}
+.location .l3{
+  left: 740px;
+}
+.location .l4{
+  right: 0px;
+}
+.foto{
+  display: block;
+  width: 1440px;
+  height: 1254px;
+  margin-top: 50px;
+}
+.foto .fotografia{
+  display: block;
+  position: absolute;
+  width: 1440px;
+  height: 1254px;
+  background: url(images/foto1.png);
+  animation: picture 20s alternate infinite;
+}
+.foto .zagolovok{
+  display: block;
+  position: absolute;
+  width: 846px;
+  height: 238px;
+  background-color: #46620B;
+  font-size: 69px;
+  text-transform: uppercase;
+  font-family: "TT Hazelnuts Edu";
+  font-weight: 500;
+  right: 0px;
+  top: 1426px;
+  color: white;
+}
+.foto .zagolovok p{
+  margin-left: 46px;
+  margin-top: 40px;
+}
+.text1{
+  display: block;
+  position: absolute;
+  width: 992px;
+  height: 571px;
+  background-color: #619713;
+  margin-top: 0;
+  color: white;
+  font-size: 30px;
+  font-family: "TT Hazelnuts Edu";
+  top: 1664px;
+}
+.text1 p{
+  margin-top: 156px;
+  margin-left: 106px;
+}
+.end{
+  display: block;
+  position: absolute;
+  background-color: #B3B505;
+  width: 1440px;
+  height: 186px;
+  bottom: 0px;
+  color: #2E2E2E;
+  font-size: 39px;
+  font-family: "TT Hazelnuts Edu";
+  text-align: center;
+}
+@keyframes picture {
+  20%{background: url(images/foto2.png);}
+  40%{background: url(images/foto3.png);}
+  60%{background: url(images/foto4.png);}
+  80%{background: url(images/foto1.png);}
+}

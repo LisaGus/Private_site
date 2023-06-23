@@ -1,0 +1,74 @@
+body{
+  height: 3223px;
+}
+.location .l1 a{
+ text-decoration: none;
+ color: white;
+}
+.location .l2 a{
+ text-decoration: none;
+ color: #2E2E2E;
+}
+.karta1{
+  display: block;
+  width: 1440px;
+  height: 1444px;
+  background: url(images/karta.png);
+  margin-top: 50px;
+}
+.krest{
+  display: block;
+  position: absolute;
+  width: 112px;
+  height: 112px;
+  background: url(images/krest.png);
+  left: 740px;
+  top: 980px;
+  transform: rotate(-15deg);
+  animation: krest 5s alternate infinite;
+}
+.karta2{
+  display: block;
+  width: 1440px;
+  height: 820px;
+  background-color: #619713;
+  margin-top: 182px;
+}
+.karta2_2{
+  display: block;
+  position: absolute;
+  width: 1440px;
+  height: 540px;
+  background: url(images/Ikarta.png);
+  bottom: 486px;
+}
+.text2{
+  display: block;
+  position: absolute;
+  color: white;
+  font-size: 30px;
+  font-family: "TT Hazelnuts Edu";
+  bottom: 1043px;
+  left: 420px;
+}
+.text2 a{
+  text-decoration: none;
+  color: white;
+}
+.text3 p{
+  display: block;
+  position: absolute;
+  color: white;
+  font-size: 30px;
+  font-family: "TT Hazelnuts Edu";
+  bottom: 380px;
+  left: 400px;
+}
+@keyframes krest {
+  33%{width: 138px;
+  height: 138px;
+  background: url(images/krest3.png);}
+  66%{width: 173px;
+  height: 173px;
+  background: url(images/krest2.png);}
+}

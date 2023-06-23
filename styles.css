@@ -1,0 +1,7 @@
+@font-face {
+font-family: "TT Hazelnuts Edu";
+src: url(fonts/TT Hazelnuts Educational Regular.ttf);
+src: url(fonts/TT Hazelnuts Educational Medium.ttf);
+src: url(fonts/TT Hazelnuts Educational Italic.ttf);
+}
+@import "forindex.css";
